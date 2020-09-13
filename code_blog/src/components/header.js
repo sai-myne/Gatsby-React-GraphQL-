@@ -1,5 +1,5 @@
 import PropTypes from "prop-types"
-import React, { Component, useState } from "react"
+import React, { useState } from "react"
 import {
   Collapse,
   Navbar,
@@ -7,8 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  NavbarText
+  NavLink
 } from 'reactstrap';
 
 const Header = (props) => {
