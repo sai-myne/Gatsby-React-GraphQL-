@@ -50,7 +50,7 @@ const SinglePost = ({ data, pageContext }) => {
                         <li><a href={'https://www.facebook.com/sharer/sharer/php?u=' + baseUrl + pageContext.slug } className="facebook" target="_blank" rel="nopener noreferrer">
                             <i className="fab fa-facebook-f fa-2x"></i>
                         </a></li>
-                        <li><a href={'https://twitter.com/share?url=' + baseUrl + pageContext.slug + '&text=' + post.title + '&via' + 'twitterHandle' } className="twitter" target="_blank" rel="nopener noreferrer">
+                        <li><a href={'https://twitter.com/share?url=' + baseUrl + pageContext.slug + '&text=' + post.title + '&viatwitterHandle' } className="twitter" target="_blank" rel="nopener noreferrer">
                             <i className="fab fa-twitter fa-2x"></i>
                         </a></li>
                         <li><a href={'https://plus.google.com/share?url=' + baseUrl + pageContext.slug } className="google" target="_blank" rel="nopener noreferrer">
